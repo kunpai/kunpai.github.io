@@ -15,7 +15,7 @@
 
 body {
   display: grid;
-  place-items: center;
+  place-items: top;
   min-height: 100vh;
   background: #150220;
 }
