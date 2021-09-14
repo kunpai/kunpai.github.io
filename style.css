@@ -29,7 +29,7 @@ div {
   padding: 20px;
   position: relative;
   width: 600px;
-  height: 150px;
+  height: 200px;
   cursor: pointer;
   animation: blink 8s infinite;
 }
