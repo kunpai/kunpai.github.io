@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 .header img {
-  float: left;
+  float: center;
   width: 500px;
-  height: 100px;
+  height: 200px;
   background: #555;
 }
 
