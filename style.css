@@ -27,8 +27,8 @@ div {
   color: #1f0e28;
   border: 3px solid rgba(22, 182, 212, 0.3);
   padding: 20px;
-  position: absolute;
-  width: 1000px;
+  position: relative;
+  width: 2000px;
   height: 100px;
   cursor: pointer;
   animation: blink 8s infinite;
