@@ -27,7 +27,7 @@ div {
   color: #1f0e28;
   border: 3px solid rgba(22, 182, 212, 0.3);
   padding: 20px;
-  position: relative;
+  position: absolute;
   width: 1000px;
   height: 100px;
   cursor: pointer;
