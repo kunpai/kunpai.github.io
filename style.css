@@ -28,7 +28,7 @@ div {
   border: 3px solid rgba(22, 182, 212, 0.3);
   padding: 20px;
   position: relative;
-  width: 800px;
+  width: 750px;
   height: 150px;
   cursor: pointer;
   animation: blink 8s infinite;
