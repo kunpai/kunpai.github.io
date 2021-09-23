@@ -40,6 +40,57 @@
   <div class="media mt-5">
     <img src="https://media-exp1.licdn.com/dms/image/C5603AQGT8OcXT3QAKg/profile-displayphoto-shrink_800_800/0/1627503793909?e=1637798400&v=beta&t=6r8KaOnmhogLIgpH_pQgcia0V2NinVmSM8L8vi22dfs" class="m-3" alt="image" width="75px" height="75px">
     <div class="media-body m-2">
+      div {
+  font-family: "Noto Sans TC";
+  font-size: 5rem;
+  letter-spacing: 20px;
+  color: #1f0e28;
+  border: 3px solid rgba(22, 182, 212, 0.3);
+  padding: 20px;
+  position: relative;
+  width: 750px;
+  height: 150px;
+  cursor: pointer;
+  animation: blink 8s infinite;
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+  
+
+@keyframes blink {
+  0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+    color: #1f0e28;
+    text-shadow: none;
+    box-shadow: none;
+    border: 3px solid rgba(22, 182, 212, 0.3);
+  }
+  
+  18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 100% {
+    border: 3px solid rgba(22, 182, 212, 1);
+    color: #ffc2fd;
+  text-shadow: 0 0 10px #f205ae,
+               0 0 20px #f205ae,
+               0 0 40px #f205ae,
+               0 0 80px #f205ae,
+               0 0 160px #f205ae,
+               0 0 320px #f205ae,
+               0 0 640px #f205ae;
+  box-shadow: inset 0 0 10px rgba(113,213,255, 0.5),
+              inset 0 0 20px rgba(113,213,255, 0.5),
+              0 0 10px rgba(113,213,255, 0.3),
+              0 0 20px rgba(113,213,255, 0.3),
+              0 0 40px rgba(113,213,255, 0.3),
+              0 0 80px rgba(113,213,255, 0.3),
+              0 0 160px rgba(113,213,255, 0.3),
+              0 0 320px rgba(113,213,255, 0.3)
+}
+  }
+}
       <h5 class="align-items-center mt-2">Kunal Pai</h5>
       <p><span style="color:white">Computer Science and Engineering Student, Blogger, Podcaster</span></p>
     </div>
